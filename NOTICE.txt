@@ -1,0 +1,17 @@
+xcluster
+
+This software is Copyright (C) 2017 University of Massachusetts
+Amherst, College of Information and Computer Sciences, and is licensed under the
+terms of the Apache License, Version 2.0 (see LICENSE.txt) or (at your option) any subsequent version.
+
+The license is approved by the Open Source Initiative, and is available
+from their website at http://www.opensource.org.
+
+THIRD PARTY COMPONENTS
+
+factorie is Copyright (C) 2008-2017 University of Massachusetts
+Amherst, Department of Computer Science, and is licensed under the
+terms of the Apache License, Version 2.0 
+
+Google Guava is Copyright (C) 2011 The Guava Authors and is licensed
+under the terms of the Apache License, Version 2.0
