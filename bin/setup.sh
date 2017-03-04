@@ -11,4 +11,8 @@ if [ ! -f $XCLUSTER_ROOT/.gitignore ]; then
     echo "target" >> $XCLUSTER_ROOT/.gitignore
     echo ".idea" >> $XCLUSTER_ROOT/.gitignore
     echo "__pycache__" >> $XCLUSTER_ROOT/.gitignore
+    echo "dep" >> $XCLUSTER_ROOT/.gitignore
+    echo "data" >> $XCLUSTER_ROOT/.gitignore
+    echo "test_out" >> $XCLUSTER_ROOT/.gitignore
+    echo "experiments_out" >> $XCLUSTER_ROOT/.gitignore
 fi
