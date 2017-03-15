@@ -50,7 +50,7 @@ Run Test on Separated Data:
  ./bin/test/test_perch_dendrogram_purity.sh
 ```
 
-Run Perch on Small Scale Data (glass dataset):
+Run PERCH on Small Scale Data (glass dataset):
 
 ```
 # Hierarchical clustering
@@ -60,7 +60,7 @@ Run Perch on Small Scale Data (glass dataset):
 ./bin/flat/glass/run_perch.sh
 ```
 
-Run Perch on ALOI (see notes below for suggested system environment):
+Run PERCH on ALOI (see notes below for suggested system environment):
 
 ```
 # Hierarchical clustering
@@ -78,14 +78,14 @@ Run Test on Separated Data:
  ./bin/test/test_perch_dendrogram_purity_py.sh
 ```
 
-Run Perch on Small Scale Data (glass dataset):
+Run PERCH on Small Scale Data (glass dataset):
 
 ```
 # Hierarchical clustering
 ./bin/hierarchical/glass/run_perch_py.sh
 ```
 
-Run Perch on ALOI: 
+Run PERCH on ALOI: 
 
 ```
 # Hierarchical clustering
