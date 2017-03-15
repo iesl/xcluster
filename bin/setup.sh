@@ -15,4 +15,5 @@ if [ ! -f $XCLUSTER_ROOT/.gitignore ]; then
     echo "data" >> $XCLUSTER_ROOT/.gitignore
     echo "test_out" >> $XCLUSTER_ROOT/.gitignore
     echo "experiments_out" >> $XCLUSTER_ROOT/.gitignore
+    echo ".DS_STORE" >> $XCLUSTER_ROOT/.gitignore
 fi

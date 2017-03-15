@@ -72,6 +72,25 @@ Run Perch on ALOI (see notes below for suggested system environment):
 
 #### Python ####
 
+Run Test on Separated Data:
+
+```
+ ./bin/test/test_perch_dendrogram_purity_py.sh
+```
+
+Run Perch on Small Scale Data (glass dataset):
+
+```
+# Hierarchical clustering
+./bin/hierarchical/glass/run_perch_py.sh
+```
+
+Run Perch on ALOI: 
+
+```
+# Hierarchical clustering
+./bin/hierarchical/aloi/run_perch_py.sh
+```
 
 ## Notes ##
 
