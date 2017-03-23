@@ -16,4 +16,5 @@ if [ ! -f $XCLUSTER_ROOT/.gitignore ]; then
     echo "test_out" >> $XCLUSTER_ROOT/.gitignore
     echo "experiments_out" >> $XCLUSTER_ROOT/.gitignore
     echo ".DS_STORE" >> $XCLUSTER_ROOT/.gitignore
+    echo "*.iml" >> $XCLUSTER_ROOT/.gitignore
 fi
