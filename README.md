@@ -1,5 +1,5 @@
 # xcluster #
-**xcluster** contains algorithms and evaluation tools for _extreme clustering_, i.e., instances of clustering in which the number of points to be clustered _and_ the number of clusters is large.  Most notably, xcluster contains an implementation of **PERCH** (Purity Enhancing Rotations for Cluster Hierachies). PERCH is an online extreme clustering algorithm that incrementally builds a tree with data points at its leaves.  During the data point insertion procedure, PERCH performs _rotations_ to keep the tree accurate and as balanced as possible. Empirical experiments show that PERCH produces purer trees faster than other algorithms; theoretical analysis shows that for _separable_ data, PERCH builds trees with perfect dendrogram purity regardless of the order of the data.  Technical details of the algorithm and analysis are forthcoming.
+**xcluster** contains algorithms and evaluation tools for _extreme clustering_, i.e., instances of clustering in which the number of points to be clustered _and_ the number of clusters is large.  Most notably, xcluster contains an implementation of **PERCH** (Purity Enhancing Rotations for Cluster Hierachies). PERCH is an online extreme clustering algorithm that incrementally builds a tree with data points at its leaves.  During the data point insertion procedure, PERCH performs _rotations_ to keep the tree accurate and as balanced as possible. Empirical experiments show that PERCH produces purer trees faster than other algorithms; theoretical analysis shows that for _separable_ data, PERCH builds trees with perfect dendrogram purity regardless of the order of the data.  Technical details and analysis of the algorithm can be found in our paper: [A Hierarchical Algorithm for Extreme Clustering](https://dl.acm.org/authorize?N34117)
 
 
 ## Setup ##
@@ -85,7 +85,7 @@ Run PERCH on Small Scale Data (glass dataset):
 ./bin/hierarchical/glass/run_perch_py.sh
 ```
 
-Run PERCH on ALOI: 
+Run PERCH on ALOI:
 
 ```
 # Hierarchical clustering
