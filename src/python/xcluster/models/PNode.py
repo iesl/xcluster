@@ -853,8 +853,15 @@ class PNode:
         if self.parent and self.parent.parent:
             aunt_size = self.aunts()[0].point_counter
             parent_size = self.parent.point_counter
-            return abs(parent_size - aunt_size - 2 * self.point_counter) < abs(
-                parent_size - aunt_size)
+            self_size = self.point_counter
+            sibling_size = parent_size - self_size
+            new_parent_size = self_size + aunt_size
+            bal = min(self_size, sibling_size) / max(self_size, sibling_size) \
+                + min(aunt_size, parent_size) / max(aunt_size, parent_size)
+            bal_rot = min(self_size, aunt_size) / max(self_size, aunt_size) \
+                + min(sibling_size, new_parent_size) / \
+                max(sibling_size, new_parent_size)
+            return bal < bal_rot
         else:
             return False
 
