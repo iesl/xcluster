@@ -46,7 +46,7 @@ class Graphviz {
   var color_map = new util.HashMap[String,String]().asScala
   var color_counter = 0
 
-  def formatId(id: String) = "id" + id.replaceAll("-","")
+  def formatId(id: String) = "id" + clean_label(id.replaceAll("-",""))
 
   def get_node_label(node: EvalTreeNode) = {
     val lbl = new StringBuilder()
@@ -66,7 +66,7 @@ class Graphviz {
   }
 
   def clean_label(s: String) = {
-    s.replaceAll("[^a-zA-Z0-9\\-]", "_");
+    s.replaceAll("[^a-zA-Z0-9\\-]", "_").replaceAll("[/:.]","_")
   }
 
   def _get_color(lbl: String) = {
