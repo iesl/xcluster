@@ -66,7 +66,7 @@ class Graphviz {
   }
 
   def clean_label(s: String) = {
-    s.replaceAll("[^a-zA-Z0-9\\-]", "_");
+    "id_" + s.replaceAll("[^a-zA-Z0-9\\-]", "_");
   }
 
   def _get_color(lbl: String) = {
